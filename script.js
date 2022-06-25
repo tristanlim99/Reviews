@@ -72,7 +72,7 @@ prevBtn.addEventListener("click", function () {
   if (currentItem < 0) {
     currentItem = reviews.length - 1;
   }
-  showPerson();
+  showPerson(currentItem);
 });
 
 //show random person
